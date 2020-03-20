@@ -20,7 +20,7 @@ function ageChecker(age) {
     console.log("You are kid")
   }
 
-  else (age > 19) {return "You are a grownup"}
+  else (age >= 20) {return "You are a grownup"}
 }
 
 
